@@ -5,6 +5,8 @@
 ## Lab Overview
 This lab demonstrates the configuration of **Hot Standby Router Protocol Version 2 (HSRPv2)** on two routers (R1 and R2), setting up a virtual IP (VIP) as the default gateway for a local network. The lab tests the failover functionality by pinging an external server from PCs in the local network and observing changes when one of the routers is turned off and back on.
 
+<img src= "https://github.com/ro-drick/HSRP-Configuration/blob/main/hsrp.PNG">
+
 ### Topology Details:
 - **Default Gateway (VIP):** 10.0.1.254
 - **HSRP Configuration:**
